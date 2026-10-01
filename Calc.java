@@ -35,6 +35,9 @@ public class Calc extends Compf{
             case'/':
                 s.push(first/second);
                 break;
+            case '%':
+                s.push(first % second);
+                break;
         }
     }
 

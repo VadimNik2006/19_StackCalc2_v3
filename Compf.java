@@ -22,6 +22,7 @@ public class Compf extends Stack{
             case '-':
             case '*':
             case '/':
+            case '%':
                 return SYM_OPER;
             default:
                 return symOther(c);
